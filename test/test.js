@@ -44,7 +44,7 @@ describe('server', function() {
       expect(ip).to.be.an.ip;
       expect(lang).to.be.not.empty;
       expect(lang).to.equal('en-US');
-      expect(soft).to.be.equal('Mozilla/5.0 (X11; Linux x86_64; rv:49.0) Gecko/20100101 Firefox/49.0');
+      expect(soft).to.be.equal('Linux 64');
       done();
     });
   });
