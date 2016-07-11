@@ -1,0 +1,30 @@
+{
+  "name": "fcc-request-header-parser-microservice",
+  "version": "0.1.0",
+  "description": "«Request header parser microservice» exercise, part of Free Code Camp «API Projects»",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha --watch --recursive test/test.js",
+    "start": "node app.js"
+  },
+  "author": "Juan Riquelme González <juanriqgon@tutanota.com> (soulchainer)",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "~2.13.0",
+    "chai": "~3.5.0",
+    "chai-http": "~3.0.0",
+    "gulp": "~3.9.1",
+    "gulp-autoprefixer": "~3.1.0",
+    "gulp-clean-css": "~2.0.10",
+    "gulp-htmlmin": "~2.0.0",
+    "gulp-load-plugins": "~1.2.4",
+    "gulp-nodemon": "~2.1.0",
+    "gulp-sass": "~2.3.2",
+    "gulp-sourcemaps": "~1.6.0",
+    "gulp-util": "~ 3.0.7",
+    "mocha": "~2.5.3"
+  },
+  "dependencies": {
+    "express": "~4.14.0"
+  }
+}

@@ -1,0 +1,56 @@
+/*------------------------------------*\
+    #VARIABLES
+\*------------------------------------*/
+
+$black: #282828;
+$blue: #229ccf;
+$light-blue: lighten($blue, 50);
+$light-grey: #f8f8f8;
+
+$font-mono: 'Roboto Mono', monospace;
+$font-main: 'Roboto Slab', serif;
+
+
+
+
+
+/*------------------------------------*\
+    #GENERAL
+\*------------------------------------*/
+
+body {
+  background-color: $light-grey;
+}
+
+h1,
+h2 {
+  font: {
+    family: $font-mono;
+    style: italic;
+    weight: 700;
+  }
+}
+
+main {
+  color: $black;
+  display: flex;
+  flex-direction: column;
+  font-family: $font-main;
+  line-height: 1.5rem;
+  margin: auto;
+  max-width: 800px;
+}
+
+blockquote {
+  border-left: 5px solid $blue;
+  margin: 0 0 1rem;
+  padding: .5rem 1rem;
+}
+
+code,
+pre {
+  background-color: $light-blue;
+  color: $blue;
+  display: table;
+  font-family: $font-mono;
+}
