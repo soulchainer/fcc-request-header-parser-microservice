@@ -4,6 +4,8 @@ var express = require('express');
 module.exports = function () {
   var app = express();
 
+    app.set('trust proxy', 'loopback, linklocal, uniquelocal');
+
   /**
    * Read the request headers and return a JSON with some user info (IP,
    * language and User Agent)
